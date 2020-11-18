@@ -31,7 +31,7 @@ namespace University_Management_System
         {
             foreach (var a in teaching_Hour)
             {
-                if (CreditCount < 21)
+                if (CreditCount < 3)
                 {
                     this.teaching_Hours[CreditCount++] = a;
                    

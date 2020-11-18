@@ -38,6 +38,9 @@ namespace University_Management_System
             s.ShowInfo();
             Console.WriteLine("````````````````````````````````````````");
             Departments d = new Departments("FST");
+            Departments d1 = new Departments("FE");
+            Departments d2 = new Departments("FBA");
+            Departments d3 = new Departments("FASS");
             d.AddCourse(c1,c);
             d.ShowAllCourses();
             Console.WriteLine("````````````````````````````````````````");
@@ -46,6 +49,19 @@ namespace University_Management_System
             d.ShowAllCourses();
             Console.WriteLine("````````````````````````````````````````");
             Console.WriteLine("`````````Faculty Taking Courses`````````");
+            Faculty f = new Faculty("Dennis Ritchie", "");
+            Faculty f1 = new Faculty("Bjarne Stroustrup", "");
+            Faculty f2= new Faculty("James Gosling", "");
+            Faculty f3 = new Faculty("Linus Torvalds", "");
+            Faculty f4 = new Faculty("Anders Hejlsberg", "");
+            Teaching_Hour t = new Teaching_Hour("C programming language", 3,d);
+            Teaching_Hour t1 = new Teaching_Hour("C++ programming language", 3, d);
+            Teaching_Hour t2 = new Teaching_Hour("Java programming language", 3, d);
+            Teaching_Hour t3 = new Teaching_Hour("Python", 3, d);
+            Teaching_Hour t4 = new Teaching_Hour("OS", 3, d);
+            Teaching_Hour t5 = new Teaching_Hour("OOAD", 3, d);
+            f.AddCredit(t, t1, t2, t3, t4, t5);
+            f.ShowAllCredits();
 
         }
     }
