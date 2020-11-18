@@ -1,0 +1,13 @@
+C:\Users\RadwanRomy\source\repos\University Management System\University Management System\obj\Debug\netcoreapp3.1\University Management System.csprojAssemblyReference.cache
+C:\Users\RadwanRomy\source\repos\University Management System\University Management System\obj\Debug\netcoreapp3.1\University Management System.AssemblyInfoInputs.cache
+C:\Users\RadwanRomy\source\repos\University Management System\University Management System\obj\Debug\netcoreapp3.1\University Management System.AssemblyInfo.cs
+C:\Users\RadwanRomy\source\repos\University Management System\University Management System\obj\Debug\netcoreapp3.1\University Management System.csproj.CoreCompileInputs.cache
+C:\Users\RadwanRomy\source\repos\University Management System\University Management System\bin\Debug\netcoreapp3.1\University Management System.exe
+C:\Users\RadwanRomy\source\repos\University Management System\University Management System\bin\Debug\netcoreapp3.1\University Management System.deps.json
+C:\Users\RadwanRomy\source\repos\University Management System\University Management System\bin\Debug\netcoreapp3.1\University Management System.runtimeconfig.json
+C:\Users\RadwanRomy\source\repos\University Management System\University Management System\bin\Debug\netcoreapp3.1\University Management System.runtimeconfig.dev.json
+C:\Users\RadwanRomy\source\repos\University Management System\University Management System\bin\Debug\netcoreapp3.1\University Management System.dll
+C:\Users\RadwanRomy\source\repos\University Management System\University Management System\bin\Debug\netcoreapp3.1\University Management System.pdb
+C:\Users\RadwanRomy\source\repos\University Management System\University Management System\obj\Debug\netcoreapp3.1\University Management System.dll
+C:\Users\RadwanRomy\source\repos\University Management System\University Management System\obj\Debug\netcoreapp3.1\University Management System.pdb
+C:\Users\RadwanRomy\source\repos\University Management System\University Management System\obj\Debug\netcoreapp3.1\University Management System.genruntimeconfig.cache
