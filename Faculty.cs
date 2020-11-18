@@ -31,7 +31,7 @@ namespace University_Management_System
         {
             foreach (var a in teaching_Hour)
             {
-                if (CreditCount < 3)
+                if (CreditCount < 7)
                 {
                     this.teaching_Hours[CreditCount++] = a;
                    
@@ -40,8 +40,10 @@ namespace University_Management_System
                 {
                     Console.WriteLine("Cannot take any more course credit : " + a.CreditCount);
                 }
+
             }
-            
+            Console.WriteLine("***||You Can Take Maximum 21 Credits||***");
+
         }
         public void ShowAllCredits()
         {

@@ -8,7 +8,7 @@ namespace University_Management_System
 {
     class Departments
     {
-        public string DepartmentName { get; set; }
+        public string DepartmentName{ get; set; }
         Course[] listOfCourses;
         public int totalCourse { get; set; }
         public Section Section { get; set; }
@@ -27,12 +27,10 @@ namespace University_Management_System
 
 
         }
-
-
         public void ShowInfo()
         {
-            Console.WriteLine("Name: " + DepartmentName);
-            Console.WriteLine("Total : " + totalCourse);
+            Console.WriteLine("Name Of The Department: " + DepartmentName);
+            Console.WriteLine("Total Number Of Courses: " + totalCourse);
         }
         public void AddCourse(params Course[] courses)
         {

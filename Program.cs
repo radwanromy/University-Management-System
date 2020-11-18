@@ -60,6 +60,19 @@ namespace University_Management_System
             Teaching_Hour t3 = new Teaching_Hour("Python", 3, d);
             Teaching_Hour t4 = new Teaching_Hour("OS", 3, d);
             Teaching_Hour t5 = new Teaching_Hour("OOAD", 3, d);
+            Teaching_Hour t6 = new Teaching_Hour("Accounting", 3, d2);
+            Teaching_Hour t7 = new Teaching_Hour("COA", 3, d);
+            Teaching_Hour t8 = new Teaching_Hour("DC", 3, d1);
+            Teaching_Hour t9 = new Teaching_Hour("DLD", 3, d1);
+            Teaching_Hour t10 = new Teaching_Hour("AC", 3, d1);
+            Teaching_Hour t11 = new Teaching_Hour("DEC", 3, d1);
+            Teaching_Hour t12 = new Teaching_Hour("ECO", 3, d2);
+            Teaching_Hour t13 = new Teaching_Hour("BUSS MATH", 3, d2);
+            Teaching_Hour t14 = new Teaching_Hour("BUSS COMM", 3, d2);
+            Teaching_Hour t15 = new Teaching_Hour("AC", 3, d3);
+            Teaching_Hour t16 = new Teaching_Hour("DEC", 3, d3);
+            Teaching_Hour t17 = new Teaching_Hour("DEC", 3, d3);
+
             f.AddCredit(t, t1, t2, t3, t4, t5);
             f.ShowAllCredits();
 

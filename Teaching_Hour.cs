@@ -29,6 +29,7 @@ namespace University_Management_System
                 if (CreditCount < 7)
                     this.courses[CreditCount++] = course;
             }
+            
         }
         public void ShowInfo()
         {
