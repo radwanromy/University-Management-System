@@ -33,8 +33,8 @@ namespace University_Management_System
         }
         public void ShowInfo()
         {
-            Console.WriteLine("Course Name " + CourseName);
-            Console.WriteLine("Course Credit Number  " + CourseCreditNumber);
+            Console.WriteLine("Course Name : " + CourseName);
+            Console.WriteLine("Course Credit Number : " + CourseCreditNumber);
             for (int i = 0; i < CreditCount; i++)
             {
                 courses[i].ShowInfo();

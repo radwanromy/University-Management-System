@@ -105,10 +105,10 @@ namespace University_Management_System
         }
         public void ShowInfo()
         {
-            Console.WriteLine("Course Name: " + courseName);
-            Console.WriteLine("Course Id Number: " + courseId);
-            Console.WriteLine("Course Credit Number: " + courseCredit);
-            Console.WriteLine("Course Teaching Hours: " + courseTeachingHours);
+            Console.WriteLine("Course Name : " + courseName);
+            Console.WriteLine("Course Id Number : " + courseId);
+            Console.WriteLine("Course Credit Number : " + courseCredit);
+            Console.WriteLine("Course Teaching Hours : " + courseTeachingHours);
             
         }
         public void AddCourseNumber(int x)

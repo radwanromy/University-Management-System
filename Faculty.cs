@@ -38,11 +38,12 @@ namespace University_Management_System
                 }
                 else
                 {
+                    Console.WriteLine("***|You Can Not Able To Take More Than 21 Credits|***");
                     Console.WriteLine("Cannot take any more course credit : " + a.CreditCount);
                 }
 
             }
-            Console.WriteLine("***||You Can Take Maximum 21 Credits||***");
+            
 
         }
         public void ShowAllCredits()

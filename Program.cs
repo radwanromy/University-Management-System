@@ -20,15 +20,15 @@ namespace University_Management_System
             Course c = new Course("C#",001,3,5.0,1);
             Course c1 = new Course("C++", 003, 3, 5.0, 1);
             Section s = new Section("I","C#", 001,3, 5.0);
-            Section s1 = new Section("J", "C#", 001, 3, 5.0);
-            Section s2 = new Section("K", "C#", 001, 3, 5.0);
-            Section s3 = new Section("L", "C#", 001, 3, 5.0);
-            Section s4 = new Section("M", "C#", 001, 3, 5.0);
-            Section s5= new Section("I", "OOP1", 002, 3, 5.0);
-            Section s6 = new Section("J", "OOP1", 002, 3, 5.0);
-            Section s7 = new Section("K", "OOP1", 002, 3, 5.0);
-            Section s8 = new Section("L", "OOP1", 002, 3, 5.0);
-            Section s9 = new Section("M", "OOP1", 002, 3, 5.0);
+            Section s1 = new Section("J", "C#", 001, 3, 3.0);
+            Section s2 = new Section("K", "C#", 001, 3, 3.0);
+            Section s3 = new Section("L", "C#", 001, 3, 3.0);
+            Section s4 = new Section("M", "C#", 001, 3, 3.0);
+            Section s5= new Section("I", "OOP1", 002, 3, 3.0);
+            Section s6 = new Section("J", "OOP1", 002, 3, 3.0);
+            Section s7 = new Section("K", "OOP1", 002, 3, 3.0);
+            Section s8 = new Section("L", "OOP1", 002, 3, 3.0);
+            Section s9 = new Section("M", "OOP1", 002, 3, 3.0);
             s.SearchSection(001);
             Console.WriteLine("``````````Seacrhing For Section`````````");
             c.SearchSection(001);
@@ -49,11 +49,11 @@ namespace University_Management_System
             d.ShowAllCourses();
             Console.WriteLine("````````````````````````````````````````");
             Console.WriteLine("`````````Faculty Taking Courses`````````");
-            Faculty f = new Faculty("Dennis Ritchie", "");
-            Faculty f1 = new Faculty("Bjarne Stroustrup", "");
-            Faculty f2= new Faculty("James Gosling", "");
-            Faculty f3 = new Faculty("Linus Torvalds", "");
-            Faculty f4 = new Faculty("Anders Hejlsberg", "");
+            Faculty f = new Faculty("Dennis Ritchie", "20-001");
+            Faculty f1 = new Faculty("Bjarne Stroustrup", "20-002");
+            Faculty f2= new Faculty("James Gosling", "20-003");
+            Faculty f3 = new Faculty("Linus Torvalds", "20-004");
+            Faculty f4 = new Faculty("Anders Hejlsberg", "20-005");
             Teaching_Hour t = new Teaching_Hour("C programming language", 3,d);
             Teaching_Hour t1 = new Teaching_Hour("C++ programming language", 3, d);
             Teaching_Hour t2 = new Teaching_Hour("Java programming language", 3, d);
@@ -72,9 +72,18 @@ namespace University_Management_System
             Teaching_Hour t15 = new Teaching_Hour("AC", 3, d3);
             Teaching_Hour t16 = new Teaching_Hour("DEC", 3, d3);
             Teaching_Hour t17 = new Teaching_Hour("DEC", 3, d3);
-
-            f.AddCredit(t, t1, t2, t3, t4, t5);
+            Teaching_Hour t18 = new Teaching_Hour("AI", 3, d);
+            Teaching_Hour t19 = new Teaching_Hour("SE", 3, d);
+            Teaching_Hour t20 = new Teaching_Hour("SQT", 3, d);
+            Console.WriteLine("``````````Faculty Information```````````");
+            f.ShowInfo();
+            f.AddCredit(t, t1, t2, t3, t4, t5,t18);
             f.ShowAllCredits();
+            Console.WriteLine("``````````Faculty Information```````````");
+            f1.ShowInfo();
+            f1.AddCredit(t, t1, t2, t3, t4, t5, t18,t19);
+            f1.ShowAllCredits();
+
 
         }
     }
